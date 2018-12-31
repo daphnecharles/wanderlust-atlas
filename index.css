@@ -1,0 +1,122 @@
+
+h1 {
+    color: white;
+    font-size: 700%;
+    text-shadow: 5px 5px #dcccff;
+}
+
+body {
+ background-image: url("china.png");
+ 
+}
+
+#headerBackground {
+  
+}
+
+#headerPadding {
+    padding:50px;
+}
+
+
+.navbar-default {
+    background-color: #bba6ff;
+}
+
+#searchPadding {
+    padding:50px;
+}
+
+.badge {
+    background-color: #55acee;
+    padding: 10px;
+}
+
+.tweet {
+   
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  border-color: #eee #ddd #bbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  margin: 10px 5px;
+  padding: 16px 16px 16px 16px;
+  max-width: 468px;
+}
+
+.insta{
+   
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 18px;
+
+  line-height: 16px;
+  border-color: #eee #ddd #bbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  margin: 10px 5px;
+  padding: 16px 16px 16px 16px;
+  max-width: 468px;
+}
+
+#tweetText {
+      font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  font-family: "Gotham Narrow", Times, serif;
+
+}
+
+#tweetImage {
+     border-radius: 8px;
+}
+
+#tweetTimestamp {
+    font-size:12px;
+    
+}
+
+#tweetUser {
+    
+}
+
+.fixPadding {
+    padding: 10px;
+}
+
+.logoResize{
+    width:50px;
+    height: auto;
+}
+
+#textWhite {
+    color:white;
+}
+
+#floatButton{
+    float:right;
+}
+
+#brandResize {
+    width:75px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.instaUser{
+    font-weight: bold;
+}
+
+#instaPic{
+ padding-left:75px;
+ padding:35px;
+}
+
+.panel-body{
+    padding-left: 50px;
+}

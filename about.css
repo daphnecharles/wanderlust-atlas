@@ -1,0 +1,36 @@
+
+.headline {
+    padding: 120px 0;
+}
+
+#brandResize {
+    width:75px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+h1 {
+    color: white;
+    font-size: 700%;
+    text-shadow: 5px 5px #dcccff;
+}
+
+body {
+ background-image: url("china.png");
+ 
+}
+
+.grey {
+    color:#bb99ff;
+    text-shadow: 2px 2px white;
+}
+
+#formPadding {
+    padding: 100px;
+}
+
+.logoResize{
+    width:50px;
+    height: auto;
+}

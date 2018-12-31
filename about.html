@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<head>
+        
+    <!--JQUERY CDN-->
+    <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+    
+    <!--BOOTSTRAP CDN-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+
+
+        <link rel="stylesheet" href="about.css" />
+        <script type ="text/javascript" src="form.js"></script>
+
+    
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+    
+    <title>Wanderlust Atlas - About</title>
+ 
+ <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
+   
+    
+  </head>
+
+<body>
+
+
+<div class="container">
+    
+    <!--HEADER-->
+    <div class="row">
+<div class="col-md-12">
+    <header>
+        <div class="headline">
+            <div class="container">
+                
+                <h1 class="text-center"><img id="brandResize" src="infinity.jpg"></img> Wanderlust Atlas</h1>
+                <h2 class="text-center grey">About</h2>
+            </div>
+        </div>
+    </header>
+    </div>
+        </div>
+    
+      <!--NAVIGATION BAR-->
+<div class="row">
+
+     <div class="col-md-12">
+    
+    <nav class="navbar navbar-default">
+
+         
+<ul class="nav navbar-nav">
+       
+        <li><a href="index.html">Home</a></li>
+        
+</ul>
+
+    
+</nav>  
+    
+    </div>
+    </div>
+    
+      <!--FEATURETTE -->
+<div class="row">
+<div class="col-md-12">
+      
+        <div class="featurette" id="about">
+            <img class="featurette-image img-circle img-responsive pull-right" src="about.jpg">
+            <h2 class="featurette-heading">Daphne Charles<p><small><span class="grey">Web Designer and Travel Addict</span></small></p>
+            </h2>
+           
+            <p class="lead">Wanderlust Atlas is a web design project I created for my Advanced Web Design class at Rutgers University during the Spring of 2016.</p>
+            <p class="lead">The project was inspired by my passion for travel and web development. The idea was to create a one-page traveler's guide.</p>
+            <p class="lead">A user can click on the location from the map they are interested in traveling to and receive information from a variety of resources.</p>
+            <p class="lead">If you have any comments of suggestions please fill out the contact form below. Otherwise you can get the latest news about Wanderlust Atlas by following me on Instagram or Twitter @daphachar.</p>
+            
+            <a href="https://www.instagram.com/daphachar/"><img src="instagramlogo.png" class="logoResize"></img></a>
+            <a href="https://twitter.com/daphachar"><img src="twitterlogo.png" class="logoResize"></img></a>
+        </div>
+        </div>
+</div>
+
+<!--FORM-->
+<div class="row" id="formPadding">
+    <h2>Contact Form</h2>
+<form id='my-form' role="form" method="GET" action="form.php" class="form-horizontal">
+  
+  <div class="form-group">
+    <label for="first" class="col-sm-2 control-label">First Name:</label>
+    <div class="col-sm-8">
+      <input id="first" name="first" type="text" value="" class="form-control"/>
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="last-name" class="col-sm-2 control-label">Last Name:</label>
+    <div class="col-sm-8">
+        <input id='last-name' name="last-name" type="text" value="" class="form-control"/>
+    </div>
+  </div>
+  
+  
+    <div class="form-group">
+    <label for="email" class="col-sm-2 control-label">Email:</label>
+    <div class="col-sm-8">
+         <input id='email' name="email" type="text" value="" class="form-control"/>
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="message" class="col-sm-2 control-label">Message:</label>
+    <div class="col-sm-8">
+         <textarea class="form-control" rows="5"></textarea>
+  
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button id="submit" value="submit" type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+</form>
+</div>
+
+<div id="errors" class ="alert alert-danger" role="alert"></div>
+<div id="success" class ="alert alert-success" role="alert"></div>
+
+</body>
+</html>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright 2016 &copy; Wanderlust Atlas</p>
+                </div>
+            </div>
+        </footer>
+
+  </div>
+
+</body>
+</html>
